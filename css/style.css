@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
   --primary: #3cb815;
-  --secondary: #f65005;
+  --secondary: #f74f06;
   --light: #f7f8fc;
   --dark: #111111;
 }
@@ -323,7 +323,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-  background: var(--primary) !important;
+  background: var(--secondary) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
@@ -331,7 +331,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item i {
-  color: var(--secondary) !important;
+  color: var(--dark) !important;
 }
 
 .testimonial-carousel .owl-nav {
@@ -349,7 +349,7 @@
   align-items: center;
   justify-content: center;
   color: var(--dark);
-  border: 2px solid var(--primary);
+  border: 2px solid var(--secondary);
   border-radius: 50px;
   font-size: 18px;
   transition: 0.5s;
@@ -358,7 +358,7 @@
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
   color: #ffffff;
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 /*** Footer ***/
