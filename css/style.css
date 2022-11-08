@@ -91,6 +91,7 @@
 /*** Navbar ***/
 .fixed-top {
   transition: 0.5s;
+  color: #ffff;
 }
 
 .top-bar {
@@ -412,4 +413,14 @@
   background-color: #f74f06;
   color: #ffff;
   border: solid 2px #0000;
+}
+.founder-head {
+  font-size: 30px;
+  /* margin-top: -10%; */
+}
+.navbar .navbar-nav .nav-link .nav-color {
+  color: #ffff;
+}
+.text-body {
+  color: #ffff !important;
 }
