@@ -19,18 +19,18 @@
     if ($(window).width() < 992) {
       if ($(this).scrollTop() > 45) {
         $(".fixed-top").addClass("bg-white shadow");
-        $("#head-nav-bar").css("color", "black");
+        // $("#head-nav-bar").css("color", "black");
       } else {
         $(".fixed-top").removeClass("bg-white shadow");
-        $("#head-nav-bar").css("color", "#ffff");
+        // $("#head-nav-bar").css("color", "#ffff");
       }
     } else {
       if ($(this).scrollTop() > 45) {
         $(".fixed-top").addClass("bg-white shadow").css("top", -45);
-        $("#head-nav-bar").css("color", "black");
+        // $("#head-nav-bar").css("color", "black");
       } else {
         $(".fixed-top").removeClass("bg-white shadow").css("top", 0);
-        $("#head-nav-bar").css("color", "#ffff");
+        // $("#head-nav-bar").css("color", "#ffff");
       }
     }
   });

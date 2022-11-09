@@ -428,10 +428,19 @@ a:hover {
 .navbar .navbar-nav .nav-link .nav-color {
   color: #ffff;
 }
-.text-body {
+.fa-fa-icn {
   color: #ffff !important;
 }
 .btn-outline-primary:hover {
   background-color: var(--secondary);
   color: #ffff !important;
+}
+.head-align-center {
+  text-align: center;
+  text-decoration: underline;
+}
+.abt-page-heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10%;
 }
