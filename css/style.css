@@ -5,7 +5,9 @@
   --light: #f7f8fc;
   --dark: #111111;
 }
-
+.text-white.d-flex.flex-column.justify-content-center.h-100.p-5 {
+  background-color: var(--secondary);
+}
 .back-to-top {
   position: fixed;
   display: none;
